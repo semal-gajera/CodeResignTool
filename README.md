@@ -27,8 +27,10 @@ Type of file you want to resign. It must be either <b>IPA</b> or <b>ARCHIVE</b>.
 Provide bundle identifier, if you want to change bundle identifier of your app.
 </PRE>
 
-
-
-
+<PRE>
+<b>Certificate (Required):</b>
+Name of certificate using which you want to resign your app. 
+Please refer section <b>How to get certificate name</b>
+</PRE>
 
 ### How to get certificate name
