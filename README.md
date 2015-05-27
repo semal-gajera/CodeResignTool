@@ -30,7 +30,15 @@ Provide bundle identifier, if you want to change bundle identifier of your app.
 <PRE>
 <b>Certificate (Required):</b>
 Name of certificate using which you want to resign your app. 
-Please refer section <b>How to get certificate name</b>
+Please refer section <b>How to get certificate name</b>.
+</PRE>
+
+<PRE>
+<b>ProvisioningProfile (Required):</b>
+Name of provisioning profile (with .mobileprovision file extension) with which you want to resign your app. 
+Please do not forget put ProvisioningProfile file into <b>CodeResignTool</b> directory.
 </PRE>
 
 ### How to get certificate name
+
+To get list of valid certificates on keychain, open terminal application on yor mac and excute <b>"security find-identity"</b> command. Copy the name string of valid certificate and set it as velue for key <b>"Certificate"</b> into <b>Configration.plist</b> file.
