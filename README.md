@@ -14,7 +14,9 @@ CodeResignTool provides a easy way to resign your IPA or XCARCHIVE file with dif
 ### Configration.plist
 <PRE>
 <b>FileName (Required):</b> 
-Name of ipa or xcarchive you want to resign. Do not forget to put this file into <b>CodeResignTool</b> directory.
+Name of ipa or xcarchive you want to resign. 
+Do not forget to put this file into <b>CodeResignTool</b> directory.
+Do not include file extension.
 </PRE>
 
 <PRE>
@@ -35,7 +37,8 @@ Please refer section <b>How to get certificate name</b>.
 
 <PRE>
 <b>ProvisioningProfile (Required):</b>
-Name of provisioning profile (with .mobileprovision file extension) with which you want to resign your app. 
+Name of provisioning profile with which you want to resign your app. 
+Include file extension ( .mobileprovision).
 Please do not forget put ProvisioningProfile file into <b>CodeResignTool</b> directory.
 </PRE>
 
